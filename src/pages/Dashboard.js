@@ -11,7 +11,7 @@ function Dashboard() {
   const [description, setDescription] =
     useState("");
 
-  const API = "http://localhost:5000/api/tasks";
+  const API = "https://task-manager-app-1-ca7d.onrender.com/api/tasks";
 
   const fetchTasks = async () => {
     const res = await axios.get(API);

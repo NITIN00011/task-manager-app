@@ -13,7 +13,7 @@ function Register() {
   const registerUser = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://task-manager-app-1-ca7d.onrender.com/api/auth/register",
         {
           name,
           email,
